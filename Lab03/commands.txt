@@ -1,0 +1,122 @@
+# Задание 1
+mkdir ~/linux_lab
+
+# Задание 2
+cd ~/linux_lab
+mkdir -p projects/{scripts,web/{static,templates}} temp backups
+
+# Задание 3
+tree ~/linux_lab
+
+# Задание 4
+touch ~/linux_lab/projects/scripts/{main.py,config.yaml,utils.sh}
+
+# Задание 5
+touch ~/linux_lab/projects/web/static/{index.html,styles.css}
+
+# Задание 6
+cat > ~/linux_lab/projects/web/static/index.html << EOF
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+EOF
+
+# Задание 7
+cp ~/linux_lab/projects/web/static/styles.css ~/linux_lab/temp/old_styles.css
+
+# Задание 8
+mv ~/linux_lab/projects/scripts/config.yaml ~/linux_lab/temp/
+
+# Задание 9
+cp ~/linux_lab/projects/scripts/*.sh ~/linux_lab/temp/
+
+# Задание 10
+find ~/linux_lab -type f -exec ls -lSh {} +
+
+# Задание 11
+ln ~/linux_lab/projects/scripts/utils.sh ~/hard_link.txt
+
+# Задание 12
+cat ~/linux_lab/projects/scripts/utils.sh
+
+# Задание 13
+echo "This text was added via hard link." >> ~/hard_link.txt
+
+# Задание 14
+cat ~/linux_lab/projects/scripts/utils.sh
+
+# Задание 15
+ln -s ~/linux_lab/projects/web/static/ ~/linux_lab/temp/web_link
+
+# Задание 16
+cd ~/linux_lab/temp/web_link
+
+# Задание 17 (вернись назад и проверь)
+cd ~/linux_lab
+tree projects/web/static/
+
+# Задание 18
+tar -cf ~/linux_lab/backups/projects_backup.tar -C ~/linux_lab projects/
+
+# Задание 19
+tar -czf ~/linux_lab/backups/web_backup.tar.gz -C ~/linux_lab projects/web/
+
+# Задание 20
+zip -j ~/linux_lab/backups/important_files.zip ~/linux_lab/projects/scripts/main.py ~/linux_lab/projects/scripts/utils.sh
+
+
+# Задание 21
+mkdir -p ~/linux_lab/temp/restored_web
+tar -xzf ~/linux_lab/backups/web_backup.tar.gz -C ~/linux_lab/temp/restored_web/
+
+# Задание 22
+unzip -l ~/linux_lab/backups/important_files.zip
+
+# Задание 23
+rm -rf ~/linux_lab/temp/*
+
+# Задание 24
+rm -rf ~/linux_lab/backups/*
+
+# Задание 25
+rm ~/linux_lab/temp/web_link
+
+# Задание 26
+{
+    whoami;
+    logname;
+    pwd;
+    id;
+    ls -l ~/linux_lab/projects/scripts/
+} > ~/linux_lab/report.txt
+
+# Задание 27
+date >> ~/linux_lab/report.txt
+
+# Задание 28
+cp ~/linux_lab/report.txt ~/
+
+# Задание 29
+# Установи zip если нет: sudo apt install zip
+zip -r -P 1111 ~/linux_lab_final.zip ~/linux_lab/
+
+# Задание 30
+ls -lh ~/linux_lab_final.zip
+
+# Задание 31
+rm -rf ~/linux_lab
+
+# Задание 32
+unzip -P 1111 ~/linux_lab_final.zip -d ~/
+
+# Задание 33
+cat ~/linux_lab/report.txt
+
+# Задание 34
+tree ~/linux_lab

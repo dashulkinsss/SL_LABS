@@ -1,0 +1,7 @@
+daria
+/home/daria/linux_lab
+uid=1000(daria) gid=1000(daria) groups=1000(daria),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+total 0
+-rw-rw-r-- 1 daria daria 0 Nov 25 00:08 main.py
+-rw-rw-r-- 1 daria daria 0 Nov 25 00:08 utils.sh
+Tue Nov 25 12:25:32 AM +03 2025
