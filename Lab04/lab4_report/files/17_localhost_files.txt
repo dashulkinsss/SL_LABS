@@ -1,0 +1,11 @@
+/etc/lvm/lvm.conf
+/etc/cups/cupsd.conf
+/etc/init.d/cups
+/etc/pulse/client.conf
+/etc/sane.d/net.conf
+/etc/sane.d/escl.conf
+/etc/hosts
+/etc/speech-dispatcher/speechd.conf
+/etc/speech-dispatcher/modules/mary-generic.conf
+/etc/speech-dispatcher/modules/festival.conf
+/etc/security/pam_env.conf

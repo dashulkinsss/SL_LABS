@@ -1,0 +1,1 @@
+2025-11-28T17:11:57.793984+03:00 dashulken-pc sudo:    daria : TTY=pts/0 ; PWD=/home/daria ; USER=root ; COMMAND=/usr/bin/grep failed /var/log/auth.log
