@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Mali",
+    "capital": "Bamako",
+    "area": 1240192.0,
+    "population": 22395489,
+    "neighbors": [
+      "DZA",
+      "BFA",
+      "GIN",
+      "CIV",
+      "MRT",
+      "NER",
+      "SEN"
+    ],
+    "neighbors_count": 7,
+    "flag_url": "https://flagcdn.com/w320/ml.png"
+  },
+  {
+    "name": "Guinea",
+    "capital": "Conakry",
+    "area": 245857.0,
+    "population": 14363931,
+    "neighbors": [
+      "CIV",
+      "GNB",
+      "LBR",
+      "MLI",
+      "SEN",
+      "SLE"
+    ],
+    "neighbors_count": 6,
+    "flag_url": "https://flagcdn.com/w320/gn.png"
+  },
+  {
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "area": 322463.0,
+    "population": 31719275,
+    "neighbors": [
+      "BFA",
+      "GHA",
+      "GIN",
+      "LBR",
+      "MLI"
+    ],
+    "neighbors_count": 5,
+    "flag_url": "https://flagcdn.com/w320/ci.png"
+  },
+  {
+    "name": "Niger",
+    "capital": "Niamey",
+    "area": 1267000.0,
+    "population": 26312034,
+    "neighbors": [
+      "DZA",
+      "BEN",
+      "BFA",
+      "TCD",
+      "LBY",
+      "MLI",
+      "NGA"
+    ],
+    "neighbors_count": 7,
+    "flag_url": "https://flagcdn.com/w320/ne.png"
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "area": 923768.0,
+    "population": 223800000,
+    "neighbors": [
+      "BEN",
+      "CMR",
+      "TCD",
+      "NER"
+    ],
+    "neighbors_count": 4,
+    "flag_url": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "name": "Ghana",
+    "capital": "Accra",
+    "area": 238533.0,
+    "population": 33742380,
+    "neighbors": [
+      "BFA",
+      "CIV",
+      "TGO"
+    ],
+    "neighbors_count": 3,
+    "flag_url": "https://flagcdn.com/w320/gh.png"
+  },
+  {
+    "name": "Senegal",
+    "capital": "Dakar",
+    "area": 196722.0,
+    "population": 18593258,
+    "neighbors": [
+      "GMB",
+      "GIN",
+      "GNB",
+      "MLI",
+      "MRT"
+    ],
+    "neighbors_count": 5,
+    "flag_url": "https://flagcdn.com/w320/sn.png"
+  },
+  {
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "area": 112622.0,
+    "population": 13224860,
+    "neighbors": [
+      "BFA",
+      "NER",
+      "NGA",
+      "TGO"
+    ],
+    "neighbors_count": 4,
+    "flag_url": "https://flagcdn.com/w320/bj.png"
+  },
+  {
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "area": 272967.0,
+    "population": 24070553,
+    "neighbors": [
+      "BEN",
+      "CIV",
+      "GHA",
+      "MLI",
+      "NER",
+      "TGO"
+    ],
+    "neighbors_count": 6,
+    "flag_url": "https://flagcdn.com/w320/bf.png"
+  }
+]
